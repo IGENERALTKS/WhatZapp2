@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "f372b4ee-308f-4cfb-b7b2-22d15a4f07d3"
+      }
+    },
+    "android": {
+      "package": "com.igeneraltks.downloads"
+    }
+  }
+}
