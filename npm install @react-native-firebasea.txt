@@ -1,0 +1,27 @@
+npx create-expo-app --template
+npm i @react-native-firebase/app
+npm i @react-native-firebase/auth
+npm i @react-native-firebase/firestore
+npm install @react-native-picker/picker
+npm i expo
+npx expo install expo-linear-gradient
+npm i react-native-date-picker
+npm i react-native-gifted-chat
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/stack
+npx expo install react-native-gesture-handler
+code .
+coloque dentro de App.js: import "react-native-gesture-handler";
+
+npm install -g eas-cli
+
+npx expo install expo-dev-client
+
+eas login
+
+eas build --profile development --platform android
+
+eas credentials 
+>android
+>development
