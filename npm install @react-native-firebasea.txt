@@ -13,6 +13,7 @@ npm install @react-navigation/stack
 npx expo install react-native-gesture-handler
 code .
 coloque dentro de App.js: import "react-native-gesture-handler";
+crie o src
 
 npm install -g eas-cli
 
@@ -25,3 +26,13 @@ eas build --profile development --platform android
 eas credentials 
 >android
 >development
+>keystore
+>new key - default
+pegue a SHA1 nova e insira na firebase
+baixe o json da firebase
+
+coloque dentro de expo em app.json abaixo de version: "plugins": ["@react-native-firebase/app", "@react-native-firebase/auth"],
+esse na primeira linha de android: "googleServicesFile": "./google-services.json",
+
+eas build --profile development --platform android
+abra no dispositivo, baixe o arquivo, abra o expo go, acesse o qr code novamente
